@@ -1,0 +1,9 @@
+*~
+*.swp
+*.log
+*.aux
+*.glo
+*.ist
+*.out
+*.txt*
+*.tgz
