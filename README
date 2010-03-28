@@ -1,0 +1,14 @@
+parse_dump.pl:
+
+  parse_dump.pl parses all dump<#> files in the directory in which the script
+  resides and generates csv files containing counts on inbound packets (e.g.
+  tcp, udp, and web [port 80] packets).
+
+*.csv
+
+  These files contain counts on the type of packet indicated in their file
+  name. Each line contains all inbound packets that were captured for the
+  specific port or protocol since the timestamp on the previous line. The
+  format is as follows:
+
+  time_stamp,protocol_or_port,packet_count
