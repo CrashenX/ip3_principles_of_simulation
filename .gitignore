@@ -5,5 +5,5 @@
 *.glo
 *.ist
 *.out
-*.txt*
+dump*
 *.tgz
